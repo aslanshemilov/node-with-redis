@@ -1,0 +1,17 @@
+/* styles.css */
+@charset "utf-8";
+
+/* import all css files */
+/*@import url('animations.css');*/
+/* @import url('../lib/folder/.css');*/ /* THIS STYLE IS FOR CHOSEN DROPDOWN TO MAKE IT LOOK LIKE BOOTSTRAP */
+
+/*for custom angular alert*/
+.main-alert{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.alert-hidden{
+  /*visibility: hidden;*/
+  display:none;
+}
+/* end alert service */

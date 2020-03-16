@@ -2,7 +2,7 @@
   "name": "node-with-redis",
   "version": "1.0.0",
   "description": "This project will have connection to redis using nodejs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon --watch ./",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,18 @@
   },
   "license": "ISC",
   "dependencies": {
+    "async": "^3.2.0",
+    "await": "^0.2.6",
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
     "commander": "^5.0.0",
+    "content-disposition": "^0.5.3",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "redis": "^3.0.2",
+    "serve-favicon": "^2.5.0"
   }
 }
